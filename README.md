@@ -1,5 +1,7 @@
 # Task Management API
 
+![Task Management Screenshot](https://res.cloudinary.com/ddrsppqov/image/upload/v1740097241/Screenshot_from_2025-02-21_03-14-31_kayfbe.png)
+
 A robust REST API for task management with role-based access control, user authentication, and notification services.
 
 ## Features
