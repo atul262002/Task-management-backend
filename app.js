@@ -10,6 +10,15 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
+// Enable CORS with specific options (optional)
+app.use(
+  cors({
+    origin: "*", // Allow all origins (change this for security)
+    methods: "GET,POST,PUT,DELETE",
+    allowedHeaders: "Content-Type,Authorization",
+  })
+);
+
 // Logging in development
 if (process.env.NODE_ENV === 'development') {
   app.use(morgan('dev'));
